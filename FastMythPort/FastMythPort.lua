@@ -27,8 +27,6 @@ if not Library then
         self:RegisterEvent("LOADING_SCREEN_DISABLED")
         self:RegisterEvent("LOADING_SCREEN_ENABLED")
         
-        WeakAuras.WatchGCD()
-        
         if type(ChallengesFrame_Update) == "function" then
             hooksecurefunc("ChallengesFrame_Update", function () Library:CreateDungeonButtons() end)
         end
