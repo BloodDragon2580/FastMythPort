@@ -4,3 +4,6 @@ spells to the dungeons in your magic book.
 You just open your dungeon browser and go to the Myth+ overview. 
 There you click on the dungeon you want to go to and that's about it. 
 You can see more in the pictures.
+
+Of course you have to have played the dungeon at 
++20 InTime beforehand to get the port there.
