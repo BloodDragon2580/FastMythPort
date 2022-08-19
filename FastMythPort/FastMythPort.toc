@@ -1,8 +1,8 @@
-## Interface: 90205
+## Interface: 90207
 ## Title:|cffd6266cFastMythPort|r
 ## Notes: Show Best in Slot for every Class and Spec
 ## Author: BloodDragon2580
-## Version: 1.1
+## Version: 1.2
 
 # Libraries
 Library\LibStub\LibStub.lua
