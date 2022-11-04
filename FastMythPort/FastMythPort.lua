@@ -70,7 +70,7 @@ if not Library then
         if (not spellID) then return end
         local button = self[parent] or CreateFrame("Button", nil, parent, "SecureActionButtonTemplate")
         button:SetAllPoints(parent)
-        button:RegisterForClicks("LeftButtonUp")
+        button:RegisterForClicks("anyUp", "anyDown")
         button:SetAttribute("type", "spell")
         button:SetAttribute("spell", spellID)
         button:SetScript("OnEnter", function () self:UpdateGameTooltip(parent, spellID, true) end)
