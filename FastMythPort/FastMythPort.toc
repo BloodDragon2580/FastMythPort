@@ -2,7 +2,7 @@
 ## Title:|cffd6266cFastMythPort|r
 ## Notes: With FastMythPort you no longer need to look for the teleportation
 ## Author: BloodDragon2580
-## Version: 1.4
+## Version: 1.5
 
 # Libraries
 Library\LibStub\LibStub.lua
