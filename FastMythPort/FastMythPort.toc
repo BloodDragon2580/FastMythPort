@@ -1,6 +1,6 @@
-## Interface: 100000
+## Interface: 100002
 ## Title:|cffd6266cFastMythPort|r
-## Version: 1.7
+## Version: 1.8
 ## Notes: With FastMythPort you no longer need to look for the teleportation
 ## Author: BloodDragon2580
 ## DefaultState: enabled
