@@ -64,10 +64,10 @@ local function toggleFavoritesHandler(self, button)
 
         if (index) then
             table.remove(core.favoritesDB.collection, index)
-            core.ui.Favorites:Refresh() -- dispatch event instead
+            core.ui.Favorites:Refresh()
         elseif (#core.favoritesDB.collection < core.favoritesDB.slots) then
             table.insert(core.favoritesDB.collection, self.item)
-            core.ui.Favorites:Refresh() -- dispatch event instead
+            core.ui.Favorites:Refresh()
         else
             core:Print(L["You can not have more than "] .. core.favoritesDB.slots .. L[" favorites!"])
         end

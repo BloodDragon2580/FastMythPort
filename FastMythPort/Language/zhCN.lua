@@ -4,9 +4,8 @@ local L = me.L
 
 L["|cffd6266cFastMythPort|r"] = "|cffd6266cFastMythPort|r"
 
-L["Keystone Hero Portals - SL"] = "Keystone Hero from Shadowland"
-L["Fate of Mythic Raids - SL"] = "Fate of Mythic"
-
+L["Keystone Hero Portals"] = "Keystone Hero"
+L["Fate of Mythic Raids"] = "Fate of Mythic"
 
 --Tabs
 L["Available"] = "Available"

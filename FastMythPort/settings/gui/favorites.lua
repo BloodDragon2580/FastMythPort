@@ -13,13 +13,12 @@ local CLOSE_TEXTURE = 'Interface\\Icons\\Spell_arcane_teleportshattrath'
 
 
 local function buildFavoritesButtons(parent)
-    -- TODO: add configuration
     local PI = 3.1415926535898
     local radians = PI * 2 / core.favoritesDB.slots
     local radius = 75
     for i = 1, #core.favoritesDB.collection do
         local btn = core.ui.Buttons.CreateItemSlot(parent, core.favoritesDB.collection[i], isDisabled)
-        local a = -radians * (i - 1) - PI -- start from left and reverse rotation
+        local a = -radians * (i - 1) - PI
         local x, y = math.cos(a) * radius, math.sin(a) * radius
         btn:SetPoint('CENTER', parent, 'CENTER', x, y)
     end

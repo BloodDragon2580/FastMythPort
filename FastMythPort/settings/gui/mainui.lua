@@ -100,7 +100,6 @@ local function CreateMenu()
     frame.Title:SetPoint('LEFT', FastMythPortTitleBG, 'LEFT', 10, 1)
     frame.Title:SetText(L["|cffd6266cFastMythPort|r"])
 
-    -- Refresh
     local refreshBtn = CreateFrame('Button', nil, frame, 'GameMenuButtonTemplate')
 
     refreshBtn:SetSize(120, 20)
@@ -112,7 +111,6 @@ local function CreateMenu()
 
     frame.ScrollFrame = core.ui.Scrolls.SetupScrollFrame(frame, FastMythPortDialogBG)
 
-    -- Available and Unobtained Tabs
     availableTab, unobtainedTab = core.ui.Tabs.SetTabs(frame, 2, L["Available"], L["Unobtained"])
     availableTab.ButtonsPool = buttonsPool
     unobtainedTab.ButtonsPool = buttonsPool
