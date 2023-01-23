@@ -7,6 +7,15 @@ L["|cffd6266cFastMythPort|r"] = "|cffd6266cFastMythPort|r"
 L["Keystone Hero Portals"] = "Keystone Hero"
 L["Fate of Mythic Raids"] = "Fate of Mythic"
 
+--Addons Dungeons
+L["Mists of Pandaria"] = "Mists of Pandaria"
+L["Warlords of Draenor"] = "Warlords of Draenor"
+L["Shadowlands"] = "Shadowlands"
+L["Dragonflight"] = "Dragonflight"
+
+--Addons Raids
+L["Shadowlands Raids"] = "Shadowlands Raids"
+
 --Tabs
 L["Available"] = "Available"
 L["Unobtained"] = "Unobtained"
