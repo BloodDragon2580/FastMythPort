@@ -7,7 +7,7 @@
 ## DefaultState: enabled
 ## SavedVariables: FastMythPortAddonDB
 ## SavedVariablesPerCharacter: FMPFavoritesDB
-
+## IconTexture: Interface\Icons\inv_relics_hourglass
 
 # Libraries
 Library\LibStub\LibStub.lua
