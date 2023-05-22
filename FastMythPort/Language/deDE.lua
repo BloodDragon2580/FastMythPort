@@ -8,8 +8,13 @@ L["Keystone Hero Portals"] = "Schlüsselsteinheld"
 L["Fate of Mythic Raids"] = "Schicksal der Herrschaft"
 
 --Addons Dungeons
+L["The Burning Crusade"] = "The Burning Crusade"
+L["Wrath of the Lich King"] = "Wrath of the Lich King"
+L["Cataclysm"] = "Cataclysm"
 L["Mists of Pandaria"] = "Mists of Pandaria"
 L["Warlords of Draenor"] = "Warlords of Draenor"
+L["Legion"] = "Legion"
+L["Battle for Azeroth"] = "Battle for Azeroth"
 L["Shadowlands"] = "Shadowlands"
 L["Dragonflight"] = "Dragonflight"
 

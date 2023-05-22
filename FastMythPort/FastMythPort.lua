@@ -4,11 +4,20 @@ local _, core = ...
 core.FastMythPort = {}
 local FastMythPort = core.FastMythPort
 core.sourceOrder = { 
+    L["The Burning Crusade"],
+    L["Wrath of the Lich King"],
+    L["Cataclysm"],
     L["Mists of Pandaria"],
     L["Warlords of Draenor"],
+    L["Legion"],
+    L["Battle for Azeroth"],
     L["Shadowlands"],
     L["Dragonflight"],
     L["Shadowlands Raids"]
+}
+
+FastMythPort[L["Cataclysm"]] = {
+    {id = 410080, type = 'spell', name = 'Path of Wind\'s Domain', unobtainable = false}
 }
 
 FastMythPort[L["Mists of Pandaria"]] = {
@@ -32,6 +41,19 @@ FastMythPort[L["Warlords of Draenor"]] = {
     {id = 159901, type = 'spell', name = 'Path of the Verdant', unobtainable = false},
     {id = 159900, type = 'spell', name = 'Path of the Dark Rail', unobtainable = false},
     {id = 159896, type = 'spell', name = 'Path of the Iron Prow', unobtainable = false}
+}
+
+FastMythPort[L["Legion"]] = {
+    {id = 373262, type = 'spell', name = 'Path of the Fallen Guardian', unobtainable = false},
+    {id = 393764, type = 'spell', name = 'Path of Proven Worth', unobtainable = false},
+    {id = 393766, type = 'spell', name = 'Path of the Grand Magistrix', unobtainable = false},
+    {id = 410078, type = 'spell', name = 'Path of the Earth-Warder', unobtainable = false}
+}
+
+FastMythPort[L["Battle for Azeroth"]] = {
+    {id = 373274, type = 'spell', name = 'Path of the Scrappy Prince', unobtainable = false},
+    {id = 410071, type = 'spell', name = 'Path of the Freebooter', unobtainable = false},
+    {id = 410074, type = 'spell', name = 'Path of Festering Rot', unobtainable = false}
 }
 
 FastMythPort[L["Shadowlands"]] = {
