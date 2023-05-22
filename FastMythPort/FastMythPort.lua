@@ -3,9 +3,7 @@ local L = me.L
 local _, core = ...
 core.FastMythPort = {}
 local FastMythPort = core.FastMythPort
-core.sourceOrder = { 
-    L["The Burning Crusade"],
-    L["Wrath of the Lich King"],
+core.sourceOrder = {
     L["Cataclysm"],
     L["Mists of Pandaria"],
     L["Warlords of Draenor"],
