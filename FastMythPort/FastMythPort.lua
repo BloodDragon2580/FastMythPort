@@ -15,7 +15,8 @@ core.sourceOrder = {
 }
 
 FastMythPort[L["Cataclysm"]] = {
-    {id = 410080, type = 'spell', name = 'Path of Wind\'s Domain', unobtainable = false}
+    {id = 410080, type = 'spell', name = 'Path of Wind\'s Domain', unobtainable = false},
+    {id = 424142, type = 'spell', name = 'Path of the Tidehunter', unobtainable = false}
 }
 
 FastMythPort[L["Mists of Pandaria"]] = {
@@ -45,13 +46,17 @@ FastMythPort[L["Legion"]] = {
     {id = 373262, type = 'spell', name = 'Path of the Fallen Guardian', unobtainable = false},
     {id = 393764, type = 'spell', name = 'Path of Proven Worth', unobtainable = false},
     {id = 393766, type = 'spell', name = 'Path of the Grand Magistrix', unobtainable = false},
-    {id = 410078, type = 'spell', name = 'Path of the Earth-Warder', unobtainable = false}
+    {id = 410078, type = 'spell', name = 'Path of the Earth-Warder', unobtainable = false},
+    {id = 424153, type = 'spell', name = 'Path of Ancient Horrors', unobtainable = false},
+    {id = 424163, type = 'spell', name = 'Path of the Nightmare Lord', unobtainable = false}
 }
 
 FastMythPort[L["Battle for Azeroth"]] = {
     {id = 373274, type = 'spell', name = 'Path of the Scrappy Prince', unobtainable = false},
     {id = 410071, type = 'spell', name = 'Path of the Freebooter', unobtainable = false},
-    {id = 410074, type = 'spell', name = 'Path of Festering Rot', unobtainable = false}
+    {id = 410074, type = 'spell', name = 'Path of Festering Rot', unobtainable = false},
+    {id = 424167, type = 'spell', name = 'Path of Heart\'s Bane', unobtainable = false},
+    {id = 424187, type = 'spell', name = 'Path of the Golden Tomb', unobtainable = false}
 }
 
 FastMythPort[L["Shadowlands"]] = {
@@ -78,7 +83,8 @@ FastMythPort[L["Dragonflight"]] = {
     {id = 393283, type = 'spell', name = 'Path of the Titanic Reservoir', unobtainable = false},
     {id = 393222, type = 'spell', name = 'Path of the Watchers Legacy', unobtainable = false},
     {id = 393276, type = 'spell', name = 'Path of the Obsidian Hoard', unobtainable = false},
-    {id = 393267, type = 'spell', name = 'Path of the Rotting Woods', unobtainable = false}
+    {id = 393267, type = 'spell', name = 'Path of the Rotting Woods', unobtainable = false},
+    {id = 424197, type = 'spell', name = 'Path of Twisted Time', unobtainable = false}
 }
 
 FastMythPort[L["Shadowlands Raids"]] = {
