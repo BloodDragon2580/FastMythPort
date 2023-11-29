@@ -2,10 +2,10 @@
 local myName, me = ...
 local L = me.L
 
-L["|cffd6266cFastMythPort|r"] = "|cffd6266c快捷史诗传送门|r"
+L["|cffd6266cFastMythPort|r"] = "|cffd6266c快捷英雄之路|r"
 
 L["Keystone Hero Portals"] = "钥石英雄"
-L["Fate of Mythic Raids"] = "快捷史诗传送门"
+L["Fate of Mythic Raids"] = "快捷英雄之路"
 
 --Addons Dungeons
 L["The Burning Crusade"] = "燃烧的远征"
