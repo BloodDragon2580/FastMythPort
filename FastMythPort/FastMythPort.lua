@@ -11,6 +11,7 @@ core.sourceOrder = {
     L["Battle for Azeroth"],
     L["Shadowlands"],
     L["Dragonflight"],
+    L["War Within"],
     L["Shadowlands Raids"]
 }
 
@@ -85,6 +86,20 @@ FastMythPort[L["Dragonflight"]] = {
     {id = 393276, type = 'spell', name = 'Path of the Obsidian Hoard', unobtainable = false},
     {id = 393267, type = 'spell', name = 'Path of the Rotting Woods', unobtainable = false},
     {id = 424197, type = 'spell', name = 'Path of Twisted Time', unobtainable = false}
+}
+
+FastMythPort[L["War Within"]] = {
+    {id = 445416, type = 'spell', name = 'Path of the City of Threads', unobtainable = false},
+    {id = 445417, type = 'spell', name = 'Path of the Ara-Kara', unobtainable = false},
+    {id = 445269, type = 'spell', name = 'Path of the Stonevault', unobtainable = false},
+    {id = 445414, type = 'spell', name = 'Path of the Dawnbreaker', unobtainable = false},
+    {id = 445443, type = 'spell', name = 'Path of the Rookery', unobtainable = false},
+    {id = 445441, type = 'spell', name = 'Path of the Darkflame Cleft', unobtainable = false},
+    {id = 445440, type = 'spell', name = 'Path of the Brewery', unobtainable = false},
+    {id = 445444, type = 'spell', name = 'Path of the Priory of the Sacred Flame', unobtainable = false},
+    {id = 445424, type = 'spell', name = 'Path of the Grim Batol', unobtainable = false},
+    {id = 445418, type = 'spell', name = 'Path of the Siege of Boralus', unobtainable = false},
+    {id = 464256, type = 'spell', name = 'Path of the Besieged Harbor', unobtainable = false}
 }
 
 FastMythPort[L["Shadowlands Raids"]] = {

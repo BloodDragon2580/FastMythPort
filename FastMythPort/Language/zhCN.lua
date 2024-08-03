@@ -17,6 +17,7 @@ L["Legion"] = "军团再临"
 L["Battle for Azeroth"] = "争霸艾泽拉斯"
 L["Shadowlands"] = "暗影国度"
 L["Dragonflight"] = "巨龙时代"
+L["War Within"] = "War Within"
 
 --Addons Raids
 L["Shadowlands Raids"] = "暗影国度团本"

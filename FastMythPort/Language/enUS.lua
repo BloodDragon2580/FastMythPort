@@ -16,6 +16,7 @@ L["Legion"] = "Legion"
 L["Battle for Azeroth"] = "Battle for Azeroth"
 L["Shadowlands"] = "Shadowlands"
 L["Dragonflight"] = "Dragonflight"
+L["War Within"] = "War Within"
 
 --Addons Raids
 L["Shadowlands Raids"] = "Shadowlands Raids"
