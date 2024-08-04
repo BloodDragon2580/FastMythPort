@@ -99,7 +99,6 @@ FastMythPort[L["War Within"]] = {
     {id = 445444, type = 'spell', name = 'Path of the Priory of the Sacred Flame', unobtainable = false},
     {id = 445424, type = 'spell', name = 'Path of the Grim Batol', unobtainable = false},
     {id = 445418, type = 'spell', name = 'Path of the Siege of Boralus', unobtainable = false},
-    {id = 464256, type = 'spell', name = 'Path of the Besieged Harbor', unobtainable = false}
 }
 
 FastMythPort[L["Shadowlands Raids"]] = {
