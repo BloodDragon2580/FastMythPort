@@ -8,6 +8,8 @@ L["Keystone Hero Portals"] = "Порталы 'Герой ключей'"
 L["Fate of Mythic Raids"] = "Судьбоносные М+ рейды"
 
 --Addons Dungeons
+L["The Burning Crusade"] = "TBC"
+L["Wrath of the Lich King"] = "Гнев Короля-лича"
 L["Cataclysm"] = "Катаклизм"
 L["Mists of Pandaria"] = "Пандария"
 L["Warlords of Draenor"] = "Дренор"
@@ -15,7 +17,7 @@ L["Legion"] = "Легион"
 L["Battle for Azeroth"] = "Битва за Азерот"
 L["Shadowlands"] = "Темные Земли"
 L["Dragonflight"] = "Драконы"
-L["War Within"] = "War Within"
+L["War Within"] = "Война Внутри"
 
 --Addons Raids
 L["Shadowlands Raids"] = "Рейды Темных Земель"
