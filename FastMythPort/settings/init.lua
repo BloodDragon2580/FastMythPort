@@ -67,7 +67,7 @@ end
 local function initDb()
     if (not FastMythPortAddonDB) then FastMythPortAddonDB = {} end
     core.db = FastMythPortAddonDB
-    local version = GetAddOnMetadata(ADDON_NAME, 'Version')
+    local version = C_AddOns.GetAddOnMetadata(ADDON_NAME, 'Version')
     if (not core.db.version) then
         core.db.version = version
     elseif (core.db.version ~= version) then

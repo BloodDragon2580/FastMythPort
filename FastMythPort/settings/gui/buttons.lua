@@ -15,10 +15,10 @@ local function generateChatLinkHandler(self, button)
         if (not self.Link) then
             local itemId = self:GetAttribute('itemid')
             if (self:GetAttribute('type') == 'spell') then
-                self.Link = GetSpellLink(itemId)
+                self.Link = C_Spell.GetSpellLink(itemId)
             else
                 local _
-                _, self.Link = GetItemInfo(itemId)
+                _, self.Link = C_Item.GetItemInfo(itemId)
             end
         end
 
@@ -35,13 +35,15 @@ local function showDescriptionHandler(self)
     local btnType = self:GetAttribute('type')
     if (btnType == 'item') then
         GameTooltip:SetItemByID(itemId)
-        start, duration = GetItemCooldown(itemId)
+        start, duration = C_Item.GetItemCooldown(itemId)
     elseif (btnType == 'spell') then
         GameTooltip:SetSpellByID(itemId)
-        start, duration = GetSpellCooldown(itemId)
+        local info = C_Spell.GetSpellCooldown(itemId)
+        start = info['startTime']
+        duration = info['duration']
     elseif (btnType == 'toy') then
         GameTooltip:SetToyByItemID(itemId)
-        start, duration = GetItemCooldown(itemId)
+        start, duration = C_Item.GetItemCooldown(itemId)
     end
 
     self.cd:SetCooldown(start, duration)
@@ -85,9 +87,9 @@ local function CreateItemSlot(par, item, isDisabled)
 
     local icon
     if (item.type == 'spell') then
-        _, _, icon = GetSpellInfo(item.id)
+        icon = C_Spell.GetSpellTexture(item.id)
     else
-        icon = GetItemIcon(item.id)
+        icon = C_Item.GetItemIconByID(item.id)
     end
 
     btn.icon:SetTexture(icon)
@@ -101,7 +103,7 @@ local function CreateItemSlot(par, item, isDisabled)
 
     btn.cd:SetParent(btn)
     btn.cd:SetAllPoints()
-    local start, duration = GetItemCooldown(item.id)
+    local start, duration = C_Item.GetItemCooldown(item.id)
     btn.cd:SetCooldown(start, duration)
 
     btn:SetScript('OnEnter', showDescriptionHandler)
