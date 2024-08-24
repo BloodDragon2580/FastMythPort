@@ -21,6 +21,7 @@ L["War Within"] = "Война Внутри"
 
 --Addons Raids
 L["Shadowlands Raids"] = "Рейды Темных Земель"
+L["Dragonflight Raids"] = "Dragonflight Raids"
 
 --Tabs
 L["Available"] = "Доступные"

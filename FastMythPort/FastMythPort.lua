@@ -12,7 +12,8 @@ core.sourceOrder = {
     L["Shadowlands"],
     L["Dragonflight"],
     L["War Within"],
-    L["Shadowlands Raids"]
+    L["Shadowlands Raids"],
+    L["Dragonflight Raids"]
 }
 
 FastMythPort[L["Cataclysm"]] = {
@@ -99,10 +100,17 @@ FastMythPort[L["War Within"]] = {
     {id = 445444, type = 'spell', name = 'Path of the Priory of the Sacred Flame', unobtainable = false},
     {id = 445424, type = 'spell', name = 'Path of the Grim Batol', unobtainable = false},
     {id = 445418, type = 'spell', name = 'Path of the Siege of Boralus', unobtainable = false},
+    {id = 464256, type = 'spell', name = 'Path of the Siege of Boralus', unobtainable = false},
 }
 
 FastMythPort[L["Shadowlands Raids"]] = {
     {id = 373190, type = 'spell', name = 'Path of the Sire', unobtainable = false},
     {id = 373191, type = 'spell', name = 'Path of the Tormented Soul', unobtainable = false},
     {id = 373192, type = 'spell', name = 'Path of the First Ones', unobtainable = false}
+}
+
+FastMythPort[L["Dragonflight Raids"]] = {
+    {id = 432254, type = 'spell', name = 'Path of the Primal Prison', unobtainable = false},
+    {id = 432258, type = 'spell', name = 'Path of the Scorching Dream', unobtainable = false},
+    {id = 432257, type = 'spell', name = 'Path of the Bitter Legacy', unobtainable = false}
 }
