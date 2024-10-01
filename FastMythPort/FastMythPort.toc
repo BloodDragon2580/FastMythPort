@@ -1,6 +1,6 @@
 ## Interface: 110005
 ## Title:|cffd6266cFastMythPort|r
-## Version: 6.1
+## Version: 6.2
 ## Notes: With FastMythPort you no longer need to look for the teleportation
 ## Notes-ruRU: FastMythPort поможет Вам быстро найти телепорты в М+ подземелья
 ## Author: BloodDragon2580
