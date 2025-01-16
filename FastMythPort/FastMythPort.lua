@@ -90,17 +90,17 @@ FastMythPort[L["Dragonflight"]] = {
 }
 
 FastMythPort[L["War Within"]] = {
-    {id = 445416, type = 'spell', name = 'Path of the City of Threads', unobtainable = false},
-    {id = 445417, type = 'spell', name = 'Path of the Ara-Kara', unobtainable = false},
-    {id = 445269, type = 'spell', name = 'Path of the Stonevault', unobtainable = false},
-    {id = 445414, type = 'spell', name = 'Path of the Dawnbreaker', unobtainable = false},
-    {id = 445443, type = 'spell', name = 'Path of the Rookery', unobtainable = false},
-    {id = 445441, type = 'spell', name = 'Path of the Darkflame Cleft', unobtainable = false},
+    {id = 445416, type = 'spell', name = 'Path of Nerubian Ascension', unobtainable = false},
+    {id = 445417, type = 'spell', name = 'Path of the Ruined City', unobtainable = false},
+    {id = 445269, type = 'spell', name = 'Path of the Corrupted Foundry', unobtainable = false},
+    {id = 445414, type = 'spell', name = 'Path of the Arathi Flagship', unobtainable = false},
+    {id = 445443, type = 'spell', name = 'Path of the Fallen Stormriders', unobtainable = false},
+    {id = 445441, type = 'spell', name = 'Path of the Warding Candles', unobtainable = false},
     {id = 445440, type = 'spell', name = 'Path of the Brewery', unobtainable = false},
     {id = 445444, type = 'spell', name = 'Path of the Priory of the Sacred Flame', unobtainable = false},
-    {id = 445424, type = 'spell', name = 'Path of the Grim Batol', unobtainable = false},
-    {id = 445418, type = 'spell', name = 'Path of the Siege of Boralus', unobtainable = false},
-    {id = 464256, type = 'spell', name = 'Path of the Siege of Boralus', unobtainable = false},
+    {id = 445424, type = 'spell', name = 'Path of the Twilight Fortress', unobtainable = false},
+    {id = 445418, type = 'spell', name = 'Path of the Besieged Harbor', unobtainable = false},
+    {id = 464256, type = 'spell', name = 'Path of the Besieged Harbor', unobtainable = false},
 }
 
 FastMythPort[L["Shadowlands Raids"]] = {
