@@ -14,6 +14,7 @@ core.sourceOrder = {
     L["War Within"],
     L["Shadowlands Raids"],
     L["Dragonflight Raids"]
+    L["War Within Raids"]
 }
 
 FastMythPort[L["Cataclysm"]] = {
@@ -50,7 +51,8 @@ FastMythPort[L["Legion"]] = {
     {id = 393766, type = 'spell', name = 'Path of the Grand Magistrix', unobtainable = false},
     {id = 410078, type = 'spell', name = 'Path of the Earth-Warder', unobtainable = false},
     {id = 424153, type = 'spell', name = 'Path of Ancient Horrors', unobtainable = false},
-    {id = 424163, type = 'spell', name = 'Path of the Nightmare Lord', unobtainable = false}
+    {id = 424163, type = 'spell', name = 'Path of the Nightmare Lord', unobtainable = false},
+    {id = 467553, type = 'spell', name = 'Path of the Azerite Refinery', unobtainable = false}
 }
 
 FastMythPort[L["Battle for Azeroth"]] = {
@@ -101,6 +103,7 @@ FastMythPort[L["War Within"]] = {
     {id = 445424, type = 'spell', name = 'Path of the Twilight Fortress', unobtainable = false},
     {id = 445418, type = 'spell', name = 'Path of the Besieged Harbor', unobtainable = false},
     {id = 464256, type = 'spell', name = 'Path of the Besieged Harbor', unobtainable = false},
+    {id = 1216786, type = 'spell', name = 'Path of the Circuit Breaker', unobtainable = false}
 }
 
 FastMythPort[L["Shadowlands Raids"]] = {
@@ -113,4 +116,8 @@ FastMythPort[L["Dragonflight Raids"]] = {
     {id = 432254, type = 'spell', name = 'Path of the Primal Prison', unobtainable = false},
     {id = 432258, type = 'spell', name = 'Path of the Scorching Dream', unobtainable = false},
     {id = 432257, type = 'spell', name = 'Path of the Bitter Legacy', unobtainable = false}
+}
+
+FastMythPort[L["War Within Raids"]] = {
+    {id = 1226482, type = 'spell', name = 'Liberation of Undermine', unobtainable = false}
 }
