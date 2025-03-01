@@ -13,7 +13,7 @@ core.sourceOrder = {
     L["Dragonflight"],
     L["War Within"],
     L["Shadowlands Raids"],
-    L["Dragonflight Raids"]
+    L["Dragonflight Raids"],
     L["War Within Raids"]
 }
 
