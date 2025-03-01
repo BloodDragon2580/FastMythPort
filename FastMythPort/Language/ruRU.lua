@@ -9,7 +9,7 @@ L["Fate of Mythic Raids"] = "Судьбоносные М+ рейды"
 
 --Addons Dungeons
 L["The Burning Crusade"] = "TBC"
-L["Wrath of the Lich King"] = "Гнев Короля-лича"
+L["Wrath of the Lich King"] = "Король-лич"
 L["Cataclysm"] = "Катаклизм"
 L["Mists of Pandaria"] = "Пандария"
 L["Warlords of Draenor"] = "Дренор"
@@ -21,8 +21,8 @@ L["War Within"] = "Война Внутри"
 
 --Addons Raids
 L["Shadowlands Raids"] = "Рейды Темных Земель"
-L["Dragonflight Raids"] = "Dragonflight Raids"
-L["War Within Raids"] = "War Within Raids"
+L["Dragonflight Raids"] = "Рейды Драконов"
+L["War Within Raids"] = "Рейды Войны Внутри"
 
 --Tabs
 L["Available"] = "Доступные"
@@ -44,7 +44,7 @@ L["Debug mode off!"] = "Режим отладки выключен!"
 L["Unknown command!"] = "Неизвестная команда!"
 
 --Buttons
-L["You can not have more than "] = "Вы не можете иметь больше, чем "
+L["You can not have more than "] = "Вы не можете иметь больше чем "
 L[" favorites!"] = " избранное!"
 L["refresh"] = "обновить"
 
