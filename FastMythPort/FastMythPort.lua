@@ -52,7 +52,8 @@ FastMythPort[L["Legion"]] = {
     {id = 410078, type = 'spell', name = 'Path of the Earth-Warder', unobtainable = false},
     {id = 424153, type = 'spell', name = 'Path of Ancient Horrors', unobtainable = false},
     {id = 424163, type = 'spell', name = 'Path of the Nightmare Lord', unobtainable = false},
-    {id = 467553, type = 'spell', name = 'Path of the Azerite Refinery', unobtainable = false}
+    {id = 467553, type = 'spell', name = 'Path of the Azerite Refinery', unobtainable = false},
+    {id = 467555, type = 'spell', name = 'Path of the Azerite Refinery', unobtainable = false}
 }
 
 FastMythPort[L["Battle for Azeroth"]] = {
