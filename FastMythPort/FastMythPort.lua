@@ -100,7 +100,8 @@ FastMythPort[L["War Within"]] = {
     {id = 445424, type = 'spell', name = 'Path of the Twilight Fortress', unobtainable = false},
     {id = 445418, type = 'spell', name = 'Path of the Besieged Harbor', unobtainable = false},
     {id = 464256, type = 'spell', name = 'Path of the Besieged Harbor', unobtainable = false},
-    {id = 1216786, type = 'spell', name = 'Path of the Circuit Breaker', unobtainable = false}
+    {id = 1216786, type = 'spell', name = 'Path of the Circuit Breaker', unobtainable = false},
+    {id = 1237215, type = 'spell', name = 'Path of the Eco-Dome', unobtainable = false}
 }
 
 FastMythPort[L["Shadowlands Raids"]] = {
@@ -117,5 +118,6 @@ FastMythPort[L["Dragonflight Raids"]] = {
 
 FastMythPort[L["War Within Raids"]] = {
     {id = 1226482, type = 'spell', name = 'Path of the Liberation of Undermine', unobtainable = false},
-    {id = 1226483, type = 'spell', name = 'Path of the Nerub\'ar Palace', unobtainable = false}
+    {id = 1226483, type = 'spell', name = 'Path of the Nerub\'ar Palace', unobtainable = false},
+    {id = 1239155, type = 'spell', name = 'Path of the All-Devouring', unobtainable = false}
 }
