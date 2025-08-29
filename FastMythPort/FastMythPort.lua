@@ -118,6 +118,5 @@ FastMythPort[L["Dragonflight Raids"]] = {
 
 FastMythPort[L["War Within Raids"]] = {
     {id = 1226482, type = 'spell', name = 'Path of the Liberation of Undermine', unobtainable = false},
-    {id = 1226483, type = 'spell', name = 'Path of the Nerub\'ar Palace', unobtainable = false},
     {id = 1239155, type = 'spell', name = 'Path of the All-Devouring', unobtainable = false}
 }
