@@ -19,7 +19,8 @@ core.sourceOrder = {
 
 FastMythPort[L["Cataclysm"]] = {
     {id = 410080, type = 'spell', name = 'Path of Wind\'s Domain', unobtainable = false},
-    {id = 424142, type = 'spell', name = 'Path of the Tidehunter', unobtainable = false}
+    {id = 424142, type = 'spell', name = 'Path of the Tidehunter', unobtainable = false},
+    {id = 445424, type = 'spell', name = 'Path of the Twilight Fortress', unobtainable = false}
 }
 
 FastMythPort[L["Mists of Pandaria"]] = {
@@ -51,9 +52,7 @@ FastMythPort[L["Legion"]] = {
     {id = 393766, type = 'spell', name = 'Path of the Grand Magistrix', unobtainable = false},
     {id = 410078, type = 'spell', name = 'Path of the Earth-Warder', unobtainable = false},
     {id = 424153, type = 'spell', name = 'Path of Ancient Horrors', unobtainable = false},
-    {id = 424163, type = 'spell', name = 'Path of the Nightmare Lord', unobtainable = false},
-    {id = 467553, type = 'spell', name = 'Path of the Azerite Refinery', unobtainable = false},
-    {id = 467555, type = 'spell', name = 'Path of the Azerite Refinery', unobtainable = false}
+    {id = 424163, type = 'spell', name = 'Path of the Nightmare Lord', unobtainable = false}
 }
 
 FastMythPort[L["Battle for Azeroth"]] = {
@@ -61,7 +60,11 @@ FastMythPort[L["Battle for Azeroth"]] = {
     {id = 410071, type = 'spell', name = 'Path of the Freebooter', unobtainable = false},
     {id = 410074, type = 'spell', name = 'Path of Festering Rot', unobtainable = false},
     {id = 424167, type = 'spell', name = 'Path of Heart\'s Bane', unobtainable = false},
-    {id = 424187, type = 'spell', name = 'Path of the Golden Tomb', unobtainable = false}
+    {id = 424187, type = 'spell', name = 'Path of the Golden Tomb', unobtainable = false},
+    {id = 445418, type = 'spell', name = 'Path of the Besieged Harbor', unobtainable = false},
+    {id = 464256, type = 'spell', name = 'Path of the Besieged Harbor', unobtainable = false},
+    {id = 467553, type = 'spell', name = 'Path of the Azerite Refinery', unobtainable = false},
+    {id = 467555, type = 'spell', name = 'Path of the Azerite Refinery', unobtainable = false}
 }
 
 FastMythPort[L["Shadowlands"]] = {
@@ -95,11 +98,9 @@ FastMythPort[L["War Within"]] = {
     {id = 445414, type = 'spell', name = 'Path of the Arathi Flagship', unobtainable = false},
     {id = 445443, type = 'spell', name = 'Path of the Fallen Stormriders', unobtainable = false},
     {id = 445441, type = 'spell', name = 'Path of the Warding Candles', unobtainable = false},
-    {id = 445440, type = 'spell', name = 'Path of the Brewery', unobtainable = false},
-    {id = 445444, type = 'spell', name = 'Path of the Priory of the Sacred Flame', unobtainable = false},
-    {id = 445424, type = 'spell', name = 'Path of the Twilight Fortress', unobtainable = false},
-    {id = 445418, type = 'spell', name = 'Path of the Besieged Harbor', unobtainable = false},
-    {id = 464256, type = 'spell', name = 'Path of the Besieged Harbor', unobtainable = false},
+    {id = 445440, type = 'spell', name = 'Path of the Flaming Brewery', unobtainable = false},
+    {id = 445444, type = 'spell', name = 'Path of the Light\'s Reverence', unobtainable = false},
+    {id = 467546, type = 'spell', name = 'Path of the Waterworks', unobtainable = false},
     {id = 1216786, type = 'spell', name = 'Path of the Circuit Breaker', unobtainable = false},
     {id = 1237215, type = 'spell', name = 'Path of the Eco-Dome', unobtainable = false}
 }
