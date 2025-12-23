@@ -7,7 +7,7 @@ local FastMythPort = core.FastMythPort
 -- Order / sections shown in the UI
 core.sourceOrder = {
     L["The Burning Crusade"],
-    L["Wrath of the Lich King"],
+--     L["Wrath of the Lich King"],
     L["Cataclysm"],
     L["Mists of Pandaria"],
     L["Warlords of Draenor"],
@@ -36,9 +36,9 @@ FastMythPort[L["The Burning Crusade"]] = {}
 -- ======================
 -- Wrath of the Lich King
 -- ======================
-FastMythPort[L["Wrath of the Lich King"]] = {
-    { id = 1254555, type = 'spell', name = "Path of Unyielding Blight", unobtainable = false },   -- Pit of Saron
-}
+-- FastMythPort[L["Wrath of the Lich King"]] = {
+--     { id = 1254555, type = 'spell', name = "Path of Unyielding Blight", unobtainable = false },   -- Pit of Saron
+-- }
 
 -- ======================
 -- Cataclysm
@@ -88,7 +88,7 @@ FastMythPort[L["Legion"]] = {
     { id = 410078, type = 'spell', name = "Path of the Earth-Warder", unobtainable = false },      -- Neltharion's Lair
     { id = 393766, type = 'spell', name = "Path of the Grand Magistrix", unobtainable = false },   -- Court of Stars
     { id = 373262, type = 'spell', name = "Path of the Fallen Guardian", unobtainable = false },   -- Return to Karazhan
-    { id = 1254551, type = 'spell', name = "Path of Dark Dereliction", unobtainable = false },     -- Seat of the Triumvirate
+--     { id = 1254551, type = 'spell', name = "Path of Dark Dereliction", unobtainable = false },     -- Seat of the Triumvirate
 }
 
 -- ======================

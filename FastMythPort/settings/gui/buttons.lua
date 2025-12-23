@@ -17,12 +17,13 @@ local function generateChatLinkHandler(self, button)
             if (self:GetAttribute('type') == 'spell') then
                 self.Link = C_Spell.GetSpellLink(itemId)
             else
-                local _
-                _, self.Link = C_Item.GetItemInfo(itemId)
+                self.Link = C_Item.GetItemLinkByID(itemId)
             end
         end
 
-        if (self.Link) then ChatEdit_InsertLink(self.Link) end
+        if (self.Link) then
+            ChatEdit_InsertLink(self.Link)
+        end
     end
 end
 
@@ -38,9 +39,10 @@ local function showDescriptionHandler(self)
         start, duration = C_Item.GetItemCooldown(itemId)
     elseif (btnType == 'spell') then
         GameTooltip:SetSpellByID(itemId)
-        local info = C_Spell.GetSpellCooldown(itemId)
-        start = info['startTime']
-        duration = info['duration']
+        -- C_Spell.GetSpellCooldown can return nil for unknown/unavailable spells
+        local info = C_Spell.GetSpellCooldown(itemId) or {}
+        start = info.startTime or 0
+        duration = info.duration or 0
     elseif (btnType == 'toy') then
         GameTooltip:SetToyByItemID(itemId)
         start, duration = C_Item.GetItemCooldown(itemId)
@@ -50,12 +52,19 @@ local function showDescriptionHandler(self)
     GameTooltip:ClearAllPoints()
     GameTooltip:SetPoint('BOTTOMLEFT', self, 'TOPRIGHT')
 
+    if (self.favorite) then
+        GameTooltip:AddLine(' ')
+        GameTooltip:AddLine(L["Ctrl + Left Click to add/remove favorite"], 0.9, 0.9, 0.9)
+    end
+
     GameTooltip:Show()
 end
 
 local function toggleFavoritesHandler(self, button)
     if (self.isDisabled or not self.favorite) then return end
-    if (button == 'LeftButton' and not IsShiftKeyDown() and not IsControlKeyDown() and not IsAltKeyDown()) then
+
+    -- ✅ Favorites toggling only via Ctrl + Left Click (prevents accidental remove while teleporting)
+    if (button == 'LeftButton' and IsControlKeyDown() and not IsShiftKeyDown() and not IsAltKeyDown()) then
         local index = nil
         for i, v in ipairs(core.favoritesDB.collection) do
             if (v.id == self.item.id) then
@@ -74,7 +83,7 @@ local function toggleFavoritesHandler(self, button)
             core:Print(L["You can not have more than "] .. core.favoritesDB.slots .. L[" favorites!"])
         end
     end
-end  
+end
 
 local function CreateItemSlot(par, item, isDisabled)
     local btn = par.ButtonsPool.get()
@@ -87,7 +96,9 @@ local function CreateItemSlot(par, item, isDisabled)
 
     local icon
     if (item.type == 'spell') then
-        icon = C_Spell.GetSpellTexture(item.id)
+        -- Spell texture/name should be resolvable even if the player hasn't learned the spell.
+        local sInfo = C_Spell.GetSpellInfo(item.id)
+        icon = (sInfo and sInfo.iconID) or C_Spell.GetSpellTexture(item.id)
     else
         icon = C_Item.GetItemIconByID(item.id)
     end
@@ -103,7 +114,13 @@ local function CreateItemSlot(par, item, isDisabled)
 
     btn.cd:SetParent(btn)
     btn.cd:SetAllPoints()
-    local start, duration = C_Item.GetItemCooldown(item.id)
+    local start, duration
+    if (item.type == 'spell') then
+        local info = C_Spell.GetSpellCooldown(item.id) or {}
+        start, duration = info.startTime or 0, info.duration or 0
+    else
+        start, duration = C_Item.GetItemCooldown(item.id)
+    end
     btn.cd:SetCooldown(start, duration)
 
     btn:SetScript('OnEnter', showDescriptionHandler)

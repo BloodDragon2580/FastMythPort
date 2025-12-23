@@ -4,8 +4,8 @@ local L = me.L
 
 L["|cffd6266cFastMythPort|r"] = "|cffd6266cFastMythPort|r"
 
-L["Keystone Hero Portals"] = "Keystone Hero"
-L["Fate of Mythic Raids"] = "Fate of Mythic"
+L["Keystone Hero Portals"] = "Héros de clé mythique"
+L["Fate of Mythic Raids"] = "Destin des raids mythiques"
 
 --Addons Dungeons
 L["The Burning Crusade"] = "The Burning Crusade"
@@ -20,35 +20,36 @@ L["Dragonflight"] = "Dragonflight"
 L["War Within"] = "War Within"
 
 --Addons Raids
-L["Shadowlands Raids"] = "Shadowlands Raids"
-L["Dragonflight Raids"] = "Dragonflight Raids"
-L["War Within Raids"] = "War Within Raids"
+L["Shadowlands Raids"] = "Raids de Shadowlands"
+L["Dragonflight Raids"] = "Raids de Dragonflight"
+L["War Within Raids"] = "Raids de War Within"
 
 --Tabs
-L["Available"] = "Available"
-L["Unobtained"] = "Unobtained"
+L["Available"] = "Disponible"
+L["Unobtained"] = "Non obtenu"
 
 --Minimap Overlay
-L["Click to toggle main ui"] = "Click to toggle main ui"
-L["Shift + Click to toggle favorites"] = "Shift + Click to toggle favorites"
+L["Click to toggle main ui"] = "Cliquer pour ouvrir/fermer l'interface principale"
+L["Shift + Click to toggle favorites"] = "Maj + clic gauche pour ouvrir les favoris"
 
 --Chat Commands
-L["List of slash commands:"] = "List of slash commands:"
-L["|cff00cc66/fmp|r - toggle ui"] = "|cff00cc66/fmp|r - toggle ui"
-L["|cff00cc66/fmp favorites|r - toggles favorites ui"] = "|cff00cc66/fmp favorites|r - toggles favorites ui"
-L["|cff00cc66/fmp refresh|r - refreshes collection"] = "|cff00cc66/fmp refresh|r - refreshes collection"
-L["|cff00cc66/fmp help|r - shows help info"] = "|cff00cc66/fmp help|r - shows help info"
-L["|cff00cc66/fmp debug|r - toggle debug mode"] = "|cff00cc66/fmp debug|r - toggle debug mode"
-L["Debug mode on!"] = "Debug mode on!"
-L["Debug mode off!"] = "Debug mode off!"
-L["Unknown command!"] = "Unknown command!"
+L["List of slash commands:"] = "Liste des commandes slash :"
+L["|cff00cc66/fmp|r - toggle ui"] = "|cff00cc66/fmp|r - ouvre l'interface principale"
+L["|cff00cc66/fmp favorites|r - toggles favorites ui"] = "|cff00cc66/fmp favorites|r - ouvre les favoris"
+L["|cff00cc66/fmp refresh|r - refreshes collection"] = "|cff00cc66/fmp refresh|r - actualise les sorts"
+L["|cff00cc66/fmp help|r - shows help info"] = "|cff00cc66/fmp help|r - affiche l'aide"
+L["|cff00cc66/fmp debug|r - toggle debug mode"] = "|cff00cc66/fmp debug|r - active/désactive le mode debug"
+L["Debug mode on!"] = "Mode debug activé !"
+L["Debug mode off!"] = "Mode debug désactivé !"
+L["Unknown command!"] = "Commande inconnue !"
 
 --Buttons
-L["You can not have more than "] = "You can not have more than "
-L[" favorites!"] = " favorites!"
-L["refresh"] = "refresh"
+L["You can not have more than "] = "Vous ne pouvez pas avoir plus de "
+L[" favorites!"] = " favoris !"
+L["refresh"] = "Actualiser"
 
 --Favoriten
-L["Hold Left-Click to drag"] = "Hold Left-Click to drag"
-L["Right-Click to toggle"] = "Right-Click to toggle"
-L["Selected Favorites: "] = "Selected Favorites: "
+L["Hold Left-Click to drag"] = "Maintenez clic gauche pour déplacer"
+L["Right-Click to toggle"] = "Clic droit pour basculer"
+L["Selected Favorites: "] = "Favoris sélectionnés : "
+L["Ctrl + Left Click to add/remove favorite"] = "Ctrl + clic gauche pour ajouter/retirer un favori"

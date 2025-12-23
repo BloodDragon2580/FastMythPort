@@ -52,3 +52,5 @@ L["refresh"] = "Aktualisieren"
 L["Hold Left-Click to drag"] = "Halte die Linke Maustaste gedrückt, um das Fenster zu ziehen"
 L["Right-Click to toggle"] = "Klicke mit der rechten Maustaste, um umzuschalten"
 L["Selected Favorites: "] = "Ausgewählte Favoriten: "
+L["Ctrl + Left Click to add/remove favorite"] = "Strg + Linksklick um Favorit hinzuzufügen/zu entfernen"
+
