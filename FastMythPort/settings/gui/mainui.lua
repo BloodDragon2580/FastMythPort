@@ -13,6 +13,11 @@ local BTN_SPACING = 10
 local SECTION_MARGIN = 20
 
 local function buildSection(parent, section, items, isDisabled)
+    -- items can be nil if a section exists in sourceOrder but has no data table
+    if (type(items) ~= 'table' or #items == 0) then
+        return
+    end
+
     if (#items > 0) then
         local title = titlesPool.get(parent)
         title:SetPoint('TOPLEFT', parent, 'TOPLEFT', BTN_SPACING, -BTN_SPACING - parent.margin)
@@ -60,7 +65,8 @@ local function build(availableTab, unobtainedTab)
     local class = UnitClass('player')
     for i = 1, #core.sourceOrder do
         local section = core.sourceOrder[i]
-        local items = core.FastMythPort[section]
+        -- Fall back to an empty table so missing sections don't error.
+        local items = core.FastMythPort[section] or {}
         local obtainedItems = {}
         local unobtainedItems = {}
 
