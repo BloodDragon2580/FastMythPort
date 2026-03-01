@@ -121,7 +121,13 @@ FastMythPort[L["Midnight"]] = {
     {id = 1254572, type = 'spell', name = 'Path of Devoted Magistry', unobtainable = false},
     {id = 1254559, type = 'spell', name = 'Path of Maisara Caverns', unobtainable = false},
     {id = 1254563, type = 'spell', name = 'Path of Nexus-Point Xenas', unobtainable = false},
-    {id = 1254400, type = 'spell', name = 'Path of the Windrunners', unobtainable = false}
+    {id = 1254400, type = 'spell', name = 'Path of the Windrunners', unobtainable = false},
+
+    -- Not added yet (no SpellID available)
+    -- {id = 0, type = 'spell', name = 'Path of Murder Row', unobtainable = true},
+    -- {id = 0, type = 'spell', name = 'Path of Den of Nalorakk', unobtainable = true},
+    -- {id = 0, type = 'spell', name = 'Path of the Blinding Vale', unobtainable = true},
+    -- {id = 0, type = 'spell', name = 'Path of Voidscar Arena', unobtainable = true},
 }
 
 FastMythPort[L["Shadowlands Raids"]] = {
