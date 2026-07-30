@@ -17,8 +17,7 @@ core.sourceOrder = {
     L["Midnight"],
     L["Shadowlands Raids"],
     L["Dragonflight Raids"],
-    L["War Within Raids"],
-    L["Midnight Raids"]
+    L["War Within Raids"]
 }
 
 FastMythPort[L["The Burning Crusade"]] = {}
@@ -76,7 +75,9 @@ FastMythPort[L["Battle for Azeroth"]] = {
     {id = 445418, type = 'spell', name = 'Path of the Besieged Harbor', unobtainable = false},
     {id = 464256, type = 'spell', name = 'Path of the Besieged Harbor', unobtainable = false},
     {id = 467553, type = 'spell', name = 'Path of the Azerite Refinery', unobtainable = false},
-    {id = 467555, type = 'spell', name = 'Path of the Azerite Refinery', unobtainable = false}
+    {id = 467555, type = 'spell', name = 'Path of the Azerite Refinery', unobtainable = false},
+    {id = 1286828, type = 'spell', name = 'Path of the Devoted', unobtainable = false}, -- Temple of Sethraliss
+    {id = 1286831, type = 'spell', name = 'Path of the Golden King', unobtainable = false} -- King's Rest
 }
 
 FastMythPort[L["Shadowlands"]] = {
@@ -122,12 +123,11 @@ FastMythPort[L["Midnight"]] = {
     {id = 1254559, type = 'spell', name = 'Path of Maisara Caverns', unobtainable = false},
     {id = 1254563, type = 'spell', name = 'Path of Nexus-Point Xenas', unobtainable = false},
     {id = 1254400, type = 'spell', name = 'Path of the Windrunners', unobtainable = false},
-
-    -- Not added yet (no SpellID available)
-    -- {id = 0, type = 'spell', name = 'Path of Murder Row', unobtainable = true},
-    -- {id = 0, type = 'spell', name = 'Path of Den of Nalorakk', unobtainable = true},
-    -- {id = 0, type = 'spell', name = 'Path of the Blinding Vale', unobtainable = true},
-    -- {id = 0, type = 'spell', name = 'Path of Voidscar Arena', unobtainable = true},
+    {id = 1286812, type = 'spell', name = 'Path of the Altar of Fangs', unobtainable = false},
+    {id = 1286807, type = 'spell', name = 'Path of Nalorakk', unobtainable = false},
+    {id = 1286801, type = 'spell', name = 'Path of the Blinding Vale', unobtainable = false},
+    {id = 1286804, type = 'spell', name = 'Path of the Voidscar', unobtainable = false},
+    {id = 1286809, type = 'spell', name = 'Path of Murder Row', unobtainable = false},
 }
 
 FastMythPort[L["Shadowlands Raids"]] = {
@@ -143,11 +143,7 @@ FastMythPort[L["Dragonflight Raids"]] = {
 }
 
 FastMythPort[L["War Within Raids"]] = {
-    {id = 1226482, type = 'spell', name = 'Path of the Liberation of Undermine', unobtainable = false},
-    {id = 1239155, type = 'spell', name = 'Path of the All-Devouring', unobtainable = false}
+    {id = 1226482, type = 'spell', name = 'Path of the Liberation of Undermine', unobtainable = false}, -- Liberation of Undermine
+    {id = 1239155, type = 'spell', name = 'Path of the All-Devouring', unobtainable = false} -- Manaforge Omega
 }
 
-FastMythPort[L["Midnight Raids"]] = {
-    {id = 1226482, type = 'spell', name = 'Path of the Liberation of Undermine', unobtainable = false},
-    {id = 1239155, type = 'spell', name = 'Path of the All-Devouring', unobtainable = false}
-}
